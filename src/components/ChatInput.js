@@ -22,6 +22,8 @@ const ChatInput = ({channelName, channelId, chatRef }) => {
             userImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbDdXmwAzVmCKP_TKVfBBiCBjnFCRQ0Tb57A&usqp=CAU'
         });
 
+
+
         chatRef.current.scrollIntoView({
             behavior: "smooth",
         });
